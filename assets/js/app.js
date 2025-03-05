@@ -20,8 +20,8 @@ const newMeter = document.createElement("meter");
 
 
 // 1.3 Anvend document.textContent til at indsætte data i 2*span(se ovenfor for indhold)
-newSpan1.textContent = "JavaScript"
-newSpan1.textContent = "3%";
+newSpan1.textContent = "JavaScript: ";
+newSpan2.textContent = "3%";
 
 // 1.4 Anvend .setAttribute() til at sætte de tre attributter i meter-tagget (min, max og value)
 newMeter.setAttribute("min", "0");
